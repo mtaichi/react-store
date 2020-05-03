@@ -10,4 +10,41 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
+}
+
+:root{
+  --mainDark:#05386b;
+  --mainLight:#edf5e1;
+  --mainGreen:#379683;
+  --lightGreen:#8ee4af;
+  --mainRed:#ac3b6e;
+}
+
+.itemWraper{
+	display:relative;
+	border:1px solid rgba(0,0,0,0.2);
+	padding:1rem;
+	margin:0.5rem;
+	overflow:hidden;
+	
+	
+}
+.text-blue{color:var(--mainGreen);}
+
+.itemWraper img{ margin:auto auto; width:200px;}
+
+.btn-black{
+	background:transparent;
+	text-transform:capitalize;
+	font-size:0.8rem!important;
+	color:var(--mainDark);
+	border-radius:0 !important;
+	border:0.1rem solid var(--mainDark);
+	
+}
+
+.btn-black:hover{
+	background:var(--mainDark)!important;
+	color:var(--mainLight)!important;
 }
